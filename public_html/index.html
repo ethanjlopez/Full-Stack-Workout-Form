@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--Add Row Form-->
+    <!--Name, reps, weight, unit, date, submit-->
+    <h1>Add Form</h1>
+    <form>
+        <input type="text" id="name" placeholder="Name of Exercise...">
+
+        <input type="number" id="reps" placeholder="Number of Reps...">
+
+        <input type="number" id="weight" placeholder="Weight of Equipment...">
+
+        
+
+        <input type="radio" id="lbs" name="metric" value = 1 >
+
+        <label for="lbs">lbs</label>
+
+        <input type="radio" id="kg" name="metric" value = 0>
+        <label for="kg">kg</label>
+
+        <input type="date" id="date" >
+
+        <input type="submit" value="submit" onclick ="postRoutine();" >
+    </form>
+    <!--Table of data-->
+    <!-- Rows with id, Name, Reps, Weight, Unit, Date, update button, delete button-->
+
+    <header>
+        <h1>
+            Workout Table
+        </h1>
+    </header>
+
+    
+    
+    <script src="script.js"></script>
+    
+</body>
+</html>
